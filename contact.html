@@ -36,15 +36,35 @@
 			<div class="row">
 			  	<div class="col-sm-12 col-md-8">
 			  		<div class="page-header">
-	  					<h1>About Me</h1>
+	  					<h1>Contact</h1>
 			  		</div>
-						<img src="images/profile.jpg" style="width: 250px;" class="thumbnail pull-left gap-right img-responsive" alt="profile">
+					<form>
+						<div class="form-group"> <!-- Name field -->
+							<label class="control-label " for="name">Name</label>
+							<input class="form-control" id="name" name="name" type="text"/>
+						</div>
 						
-						<p>Lucas ipsum dolor sit amet palpatine lando skywalker watto moff boba mara padmé skywalker kessel. Obi-wan amidala antilles yoda sidious qui-gon. Moff amidala organa darth yavin maul antilles chewbacca mandalore. Darth grievous organa hutt han. Fett kashyyyk lando palpatine dooku calrissian aayla yoda windu. Padmé c-3po fett gonk amidala padmé kenobi dooku ahsoka. Wampa binks dagobah chewbacca jango. Sebulba fett hutt moff padmé mace. Lars hutt darth leia ackbar coruscant luke vader moff. Thrawn chewbacca mothma yoda.</p>
-
-						<p>Hoth coruscant sidious jabba mon moff owen. Coruscant sith alderaan antilles twi'lek skywalker. Zabrak darth ponda jawa mara mace thrawn palpatine skywalker. Chewbacca moff organa mon chewbacca. Antilles zabrak jawa jar leia calrissian mon. Coruscant mara jinn coruscant mara. Jango skywalker mon hutt organa. Jar yavin owen solo organa. Moff ben palpatine binks moff thrawn amidala padmé sith. Boba calrissian obi-wan thrawn mon ben. Kashyyyk windu calamari palpatine k-3po moff luuke. Skywalker skywalker darth hoth r2-d2 chewbacca hoth binks solo.</p>
-				</div>
-			<!-- right section		 -->
+						<div class="form-group"> <!-- Email field -->
+							<label class="control-label requiredField" for="email">Email<span class="asteriskField">*</span></label>
+							<input class="form-control" id="email" name="email" type="text"/>
+						</div>
+						
+						<div class="form-group"> <!-- Subject field -->
+							<label class="control-label " for="subject">Subject</label>
+							<input class="form-control" id="subject" name="subject" type="text"/>
+						</div>
+						
+						<div class="form-group"> <!-- Message field -->
+							<label class="control-label " for="message">Message</label>
+							<textarea class="form-control" cols="40" id="message" name="message" rows="10"></textarea>
+						</div>
+						
+						<div class="form-group">
+							<button class="btn btn-primary " name="submit" type="submit">Submit</button>
+						</div>	
+					</form>		
+				</div>		
+			  	<!-- right section		 -->
 			  	<div class="col-sm-12 col-md-4">
 			  		<div class="panel panel-default">
 	  					<div class="panel-heading">
