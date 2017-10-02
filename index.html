@@ -1,81 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>boot strap portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
 </head>
+
 <body>
-	<div id="wrap">
-		<nav class="navbar navbar-default">
-		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		      <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="#">Jamie Judi</a>
-		    </div>
+  <div class="container">
+    <div class="row">
 
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav navbar-right">
-		        <li><a href="index.html">About</a></li>
-		        <li><a href="portfolio.html">Portfolio</a></li>
-		        <li><a href="contact.html">Contact</a></li>
-		      </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
-		<!-- left section -->
-		<div class="container">
-			<div class="row">
-			  	<div class="col-sm-12 col-md-8">
-			  		<div class="page-header">
-	  					<h1>About Me</h1>
-			  		</div>
-						<img src="images/profile.jpg" style="width: 250px;" class="thumbnail pull-left gap-right img-responsive" alt="profile">
-						
-						<p>Hi, I'm Jamie, a web developer currently based out of Chicago that is currently attending the Northwestern Universit Coding Bootcamp. I am currently a QA Microbiologist.</p>
-						<p>Stay Tuned!</p>
-				</div>
-			<!-- right section		 -->
-			  	<div class="col-sm-12 col-md-4">
-			  		<div class="panel panel-default">
-	  					<div class="panel-heading">
-	    					<h3 class="panel-title">Connect with Me</h3>
-	  					</div>
-	  					
-	  					<div class="panel-body">
-	    						<!-- links section -->
-	    					<div class="row">
-	    						
-	    						<ul class="nav navbar-nav">
-	      							
-	      							<div class="col-xs-2 col-sm-3 col-md-4"><li class="active"><a href="https://github.com/jamie-jessi"><img src="images/github-128.png" class="img-responsive" alt="GitHub" style="width: 120px;" /></a></li>
-	      							</div>
-	      							<div class="col-xs-2 col-sm-3 col-md-4"><li><a href="https://www.linkedin.com/in/jessijudi/"><img src="images/linkedin.png" class="img-responsive" alt="LinkedIn" /></a></li>
-	      							</div>
-	      							<div class="col-xs-2 col-sm-3 col-md-4"><li><a href="https://stackexchange.com/users/10323318/j-cubed"><img src="images/stackoverflow-128.png" class="img-responsive" alt="Stack Overflow" /></a></li>
-	      							</div>
-	      						
-	      						</ul>
+      <!-- Container -->
+      <ul id="accordion" class="col-sm-4 col-sm-push-8  accordion nopadding">
+        <li>
+          <div class="iamjamie-pic">
+            <img class="img-responsive iamjamie" alt="iamjamie" src="./assets/images/jamiefood.jpg">
+            <div class="edit-pic">
+              <a href="https://github.com/jamie-jessi/" target="_blank" class="fa fa-github"></a>
+              <a href="https://stackoverflow.com/users/7615494/j-cubed/" target="_blank" class="fa fa-stack-overflow"></a>
+              <a href="https://www.linkedin.com/in/jessijudi/" target="_blank" class="fa fa-linkedin"></a>
+              <!-- <a href="" target="_blank" class="fa fa-google"></a> -->
+            </div>
 
-	      					</div>
-	  					</div>
-					</div>
-			  	</div>
-			</div>
-		</div>
-	</div>
-	<div id="footer">
-      <div class="container">
-        <p class="text-muted text-center">insert copyright content here</p>
+            <div class="username">
+              <h2>Jamie Judi <small><i class="fa fa-map-marker"></i>Chicago, IL</small></h2>
+              <p><i class="fa fa-briefcase"></i> Web Design and Development.</p>
+              <p><i class="fa fa-quote-left" aria-hidden="true"></i> Not with that attitude!<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+
+              <!-- <a href="" target="_blank" class="btn-o"> <i class="fa fa-user-plus"></i> Add Friend </a>
+                <a href="" target="_blank" class="btn-o"> <i class="fa fa-plus"></i> Follow </a>
+  
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-v pull-right"></span></a>
+                    <ul class="dropdown-menu pull-right">
+                      <li><a href="#">Video Call <i class="fa fa-github"></i></a></li>
+                      <li><a href="#">Poke <i class="fa fa-hand-o-right"></i></a></li>
+                      <li><a href="#">Report <i class="fa fa-bug"></i></a></li>
+                      <li><a href="#">Block <i class="fa fa-lock"></i></a></li>
+                    </ul>
+                  </li>
+                </ul> -->
+            </div>
+          </div>
+
+        </li>
+        <li>
+          <div class="link"><i class="fa fa-globe"></i>About Me<i class="fa fa-chevron-down"></i></div>
+          <ul class="submenu">
+            <li><a href="#">An engaging individual who pays close attention to detail and am always in the creative, developing mindset. I enjoy challenges and finding multiple ways to solve them. I want to build applications that are useful, efficient, and have a simple user interface.</a></li>
+            <li><a href="mailto:jamiejudi@gmail.com">Email : jamiejudi@gmail.com</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="link"><i class="fa fa-code"></i>Professional Skills<i class="fa fa-chevron-down"></i></div>
+          <ul class="submenu">
+            <li>
+              <a href="#"><span class="tags">Adobe Photoshop</span> <span class="tags">Bootstrap</span> <span class="tags">Css 3</span> <span class="tags">Graphic Design</span> <span class="tags">HTML5</span> 
+                  <span class="tags">JavaScript</span> <span class="tags">MERN stack</span> <span class="tags">User Interface Design</span>
+                </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="col-sm-8 col-sm-pull-4 projects">
+        <section id="pinBoot">
+          <article class="white-panel"> <img src="./assets/images/giphy.png" alt="">
+            <h4><a href="https://jamie-jessi.github.io/giphyapi/">GifTastic</a></h4>
+            <p>A dynamic web page that populates with gifs of your choice using the GIPHY API.</p>
+          </article>
+
+          <article class="white-panel"> <img src="./assets/images/homepage.png" alt="">
+            <h4><a href="https://rorytothemax.github.io/Reel-Ratings/">Reel-Ratings</a></h4>
+            <p>Website that helps indecisive users choose which movie or TV show to watch.</p>
+          </article>
+
+          <article class="white-panel"> <img src="./assets/images/music.png" alt="">
+            <h4><a href="https://jamie-jessi.github.io/TriviaGame/">Trivia!</a></h4>
+            <p>A basic trivia game using JavaScript for the logic and jQuery to manipulate HTML.</p>
+          </article>
+
+          <article class="white-panel"> <img src="./assets/images/meowz.gif" alt="">
+            <h4><a href="https://github.com/rorytothemax/topCat">Top Cat</a></h4>
+            <p>An app for cat lovers from all over the world who can compete to make their snuggles the most admired cat in the world. You can even vote on cats if you don’t have a cat, pressing the heart to up-vote the cat and choosing the x button to reduce its score.</p>
+          </article>
+
+          <article class="white-panel"> <img src="./assets/images/hqgif.gif" alt="">
+            <h4><a href="https://rorytothemax.github.io/Reel-Ratings/">Bamazon</a></h4>
+            <p>A CLI (command line interface) app that simulates an Amazon-like storefront.</p>
+          </article>
+
+          
+        </section>
       </div>
+
     </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./assets/js/page.js"></script>
 </body>
+
 </html>
